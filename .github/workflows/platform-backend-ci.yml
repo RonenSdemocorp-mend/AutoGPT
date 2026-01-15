@@ -41,7 +41,7 @@ jobs:
         ports:
           - 6379:6379
       rabbitmq:
-        image: rabbitmq:3.12-management
+        image: rabbitmq:3.13-management
         ports:
           - 5672:5672
           - 15672:15672
